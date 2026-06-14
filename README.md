@@ -1,44 +1,41 @@
-# clojure-basics
+# Clojure Basics
 
-FIXME: description
+Personal notes and exercises for learning Clojure from scratch. Each file covers one topic with commented examples that can be evaluated in the REPL.
 
-## Installation
+## Topics
 
-Download from https://example.com/FIXME.
+| # | Topic | File |
+|---|-------|------|
+| 1 | Functions | [functions.clj](src/clojure_basics/topics/functions.clj) |
+| 2 | Data Types | [data_types.clj](src/clojure_basics/topics/data_types.clj) |
+| 3 | Variables | [variables.clj](src/clojure_basics/topics/variables.clj) |
+| 4 | Operators | [operators.clj](src/clojure_basics/topics/operators.clj) |
+| 5 | Conditionals | [conditionals.clj](src/clojure_basics/topics/conditionals.clj) |
+| 6 | Loops | [loops.clj](src/clojure_basics/topics/loops.clj) |
 
-## Usage
+## Running
 
-FIXME: explanation
+```bash
+# Start an interactive REPL
+lein repl
 
-    $ java -jar clojure-basics-0.1.0-standalone.jar [args]
+# Run the main entry point
+lein run
+```
 
-## Options
+Load any topic file in the REPL with:
 
-FIXME: listing of options this app accepts.
+```clojure
+(load-file "src/clojure_basics/topics/functions.clj")
+```
 
-## Examples
+## Resources
 
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+- [Clojure.org — Getting Started](https://clojure.org/guides/getting_started)
+- [Clojure for the Brave and True](https://www.braveclojure.com/)
+- [ClojureDocs](https://clojuredocs.org)
+- [Clojure Cheatsheet](https://clojure.org/api/cheatsheet)
 
 ## License
 
-Copyright © 2026 FIXME
-
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-https://www.eclipse.org/legal/epl-2.0.
-
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+Copyright © 2026 Weberton Faria. Distributed under the Eclipse Public License 2.0.
