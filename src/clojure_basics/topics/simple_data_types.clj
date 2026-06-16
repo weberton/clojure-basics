@@ -1,4 +1,4 @@
-(ns clojure-basics.topics.data-types)
+(ns clojure-basics.topics.simple_data-types)
 
 (defn integer-type
   "Demonstrates the integer data type. In Clojure, integers are 64-bit Longs by default."

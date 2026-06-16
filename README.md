@@ -7,7 +7,7 @@ Personal notes and exercises for learning Clojure from scratch. Each file covers
 | # | Topic | File |
 |---|-------|------|
 | 1 | Functions | [functions.clj](src/clojure_basics/topics/functions.clj) |
-| 2 | Data Types | [data_types.clj](src/clojure_basics/topics/data_types.clj) |
+| 2 | Data Types | [data_types.clj](src/clojure_basics/topics/simple_data_types.clj) |
 | 3 | Variables | [variables.clj](src/clojure_basics/topics/variables.clj) |
 | 4 | Operators | [operators.clj](src/clojure_basics/topics/operators.clj) |
 | 5 | Conditionals | [conditionals.clj](src/clojure_basics/topics/conditionals.clj) |
