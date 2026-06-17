@@ -1,4 +1,5 @@
-(ns clojure-basics.topics.conditionals)
+(ns clojure-basics.topics.conditionals
+  (:require [nrepl.misc :refer [returning]]))
 
 ; if: (if condition then else)
 ; the else branch is optional
@@ -55,5 +56,21 @@
     6 (println "Friday")
     7 (println "Saturday")))
 
-(day-of-week 1)                                   ; prints Sunday
-(day-of-week 6)                                   ; prints Friday
+(day-of-week 1)                                             ; prints Sunday
+(day-of-week 6)                                             ; prints Friday
+
+
+; cond — evaluates conditions in order, returns the value of the first matching branch
+(defn calculate-discount
+  "Returns the discount percentage based on the total price."
+  [total-price]
+  (cond
+    (< total-price 50)  0
+    (< total-price 100) 10
+    (< total-price 200) 20
+    :else               30))
+
+(println (calculate-discount 30))                           ; prints 0
+(println (calculate-discount 75))                           ; prints 10
+(println (calculate-discount 150))                          ; prints 20
+(println (calculate-discount 250))                          ; prints 30
