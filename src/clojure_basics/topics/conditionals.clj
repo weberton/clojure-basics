@@ -40,3 +40,20 @@
 (free-entry? 70 false)                                      ; prints Free entry — senior
 (free-entry? 30 true)                                       ; prints Free entry — staff
 (free-entry? 30 false)                                      ; prints Please pay
+
+
+; case — matches an exact value, like a switch in other languages
+(defn day-of-week
+  "Prints the day name for a given day number (1 = Sunday, 7 = Saturday)."
+  [day]
+  (case day
+    1 (println "Sunday")
+    2 (println "Monday")
+    3 (println "Tuesday")
+    4 (println "Wednesday")
+    5 (println "Thursday")
+    6 (println "Friday")
+    7 (println "Saturday")))
+
+(day-of-week 1)                                   ; prints Sunday
+(day-of-week 6)                                   ; prints Friday
