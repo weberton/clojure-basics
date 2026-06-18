@@ -1,4 +1,4 @@
-(ns clojure-basics.topics.challenge-1)
+(ns clojure-basics.challenges.challenge-1)
 
 ; Challenge: given a pet type and its age, calculate its age in human years.
 ; Uses a map to store the conversion ratio per pet type.
