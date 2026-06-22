@@ -47,3 +47,18 @@
   (println (concat colors new-colors)))                     ; prints (red blue white black)
 
 (concat-example ["white" "black"])
+
+
+; distinct — returns a new sequence with duplicates removed, preserving order
+(defn print-unique-elements
+  "Prints only the unique elements from a sequence."
+  [new-colors]
+  (println (distinct new-colors)))                          ; prints (white blue black)
+
+(print-unique-elements (seq ["white" "blue" "black" "black" "white"]))
+
+; Other useful sequence functions:
+; first  — returns the first element
+; rest   — returns all elements except the first
+; last   — returns the last element
+; sort   — returns a sorted sequence
