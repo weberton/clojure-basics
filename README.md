@@ -7,11 +7,22 @@ Personal notes and exercises for learning Clojure from scratch. Each file covers
 | # | Topic | File |
 |---|-------|------|
 | 1 | Functions | [functions.clj](src/clojure_basics/topics/functions.clj) |
-| 2 | Data Types | [data_types.clj](src/clojure_basics/topics/simple_data_types.clj) |
-| 3 | Variables | [variables.clj](src/clojure_basics/topics/variables.clj) |
-| 4 | Operators | [operators.clj](src/clojure_basics/topics/operators.clj) |
-| 5 | Conditionals | [conditionals.clj](src/clojure_basics/topics/conditionals.clj) |
-| 6 | Loops | [loops.clj](src/clojure_basics/topics/loops.clj) |
+| 2 | Simple Data Types | [simple_data_types.clj](src/clojure_basics/topics/simple_data_types.clj) |
+| 3 | Compound Data Types | [compound_data_types.clj](src/clojure_basics/topics/compound_data_types.clj) |
+| 4 | Variables | [variables.clj](src/clojure_basics/topics/variables.clj) |
+| 5 | Operators | [operators.clj](src/clojure_basics/topics/operators.clj) |
+| 6 | Conditionals | [conditionals.clj](src/clojure_basics/topics/conditionals.clj) |
+| 7 | Loops | [loops.clj](src/clojure_basics/topics/loops.clj) |
+| 8 | Atoms | [atoms.clj](src/clojure_basics/topics/atoms.clj) |
+| 9 | Sequences | [sequences.clj](src/clojure_basics/topics/sequences.clj) |
+| 10 | Records | [records.clj](src/clojure_basics/topics/records.clj) |
+
+## Challenges
+
+| # | Challenge | File |
+|---|-----------|------|
+| 1 | Pet age calculator | [challenge_1.clj](src/clojure_basics/challenges/challenge_1.clj) |
+| 2 | Simple bank account | [challenge_2.clj](src/clojure_basics/challenges/challenge_2.clj) |
 
 ## Running
 
