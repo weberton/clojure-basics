@@ -16,6 +16,7 @@ Personal notes and exercises for learning Clojure from scratch. Each file covers
 | 8 | Atoms | [atoms.clj](src/clojure_basics/topics/atoms.clj) |
 | 9 | Sequences | [sequences.clj](src/clojure_basics/topics/sequences.clj) |
 | 10 | Records | [records.clj](src/clojure_basics/topics/records.clj) |
+| 11 | Map, Filter, Reduce | [map_filter_reduce.clj](src/clojure_basics/topics/map_filter_reduce.clj) |
 
 ## Challenges
 
@@ -23,6 +24,11 @@ Personal notes and exercises for learning Clojure from scratch. Each file covers
 |---|-----------|------|
 | 1 | Pet age calculator | [challenge_1.clj](src/clojure_basics/challenges/challenge_1.clj) |
 | 2 | Simple bank account | [challenge_2.clj](src/clojure_basics/challenges/challenge_2.clj) |
+| 3 | Student report card | [challenge_3.clj](src/clojure_basics/challenges/challenge_3.clj) |
+| 4 | To-do list using atoms and records | [challenge_4.clj](src/clojure_basics/challenges/challenge_4.clj) |
+| 5 | Simple inventory system | [challenge_5.clj](src/clojure_basics/challenges/challenge_5.clj) |
+| 6 | Movie ticket pricing | [challenge_6.clj](src/clojure_basics/challenges/challenge_6.clj) |
+| 7 | Shopping cart totals | [challenge_7.clj](src/clojure_basics/challenges/challenge_7.clj) |
 
 ## Running
 

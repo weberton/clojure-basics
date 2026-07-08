@@ -28,4 +28,4 @@
 (add-task "Read a book")
 (complete-task "Buy Groceries")
 
-(print-tasks)/
+(print-tasks)
