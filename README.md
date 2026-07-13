@@ -30,6 +30,7 @@ Personal notes and exercises for learning Clojure from scratch. Each file covers
 | 6 | Movie ticket pricing | [challenge_6.clj](src/clojure_basics/challenges/challenge_6.clj) |
 | 7 | Shopping cart totals | [challenge_7.clj](src/clojure_basics/challenges/challenge_7.clj) |
 | 8 | Employee bonus calculator | [challenge_8.clj](src/clojure_basics/challenges/challenge_8.clj) |
+| 9 | Library book tracker | [challenge_9.clj](src/clojure_basics/challenges/challenge_9.clj) |
 
 ## Running
 
