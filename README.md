@@ -17,6 +17,7 @@ Personal notes and exercises for learning Clojure from scratch. Each file covers
 | 9 | Sequences | [sequences.clj](src/clojure_basics/topics/sequences.clj) |
 | 10 | Records | [records.clj](src/clojure_basics/topics/records.clj) |
 | 11 | Map, Filter, Reduce | [map_filter_reduce.clj](src/clojure_basics/topics/map_filter_reduce.clj) |
+| 12 | Namespaces | [namespaces.clj](src/clojure_basics/topics/namespaces.clj) |
 
 ## Challenges
 
@@ -31,6 +32,7 @@ Personal notes and exercises for learning Clojure from scratch. Each file covers
 | 7 | Shopping cart totals | [challenge_7.clj](src/clojure_basics/challenges/challenge_7.clj) |
 | 8 | Employee bonus calculator | [challenge_8.clj](src/clojure_basics/challenges/challenge_8.clj) |
 | 9 | Library book tracker | [challenge_9.clj](src/clojure_basics/challenges/challenge_9.clj) |
+| 10 | Weather station report | [challenge_10.clj](src/clojure_basics/challenges/challenge_10.clj), [challenge_10_utils.clj](src/clojure_basics/challenges/challenge_10_utils.clj) |
 
 ## Running
 
